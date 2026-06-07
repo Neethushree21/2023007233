@@ -6,6 +6,13 @@
     "stage6": "node stage6/priorityInbox.js"
   },
   "dependencies": {
-    "dotenv": "^16.3.1"
-  }
+    "axios": "^1.17.0",
+    "dotenv": "^16.3.1",
+    "express": "^5.2.1"
+  },
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
 }
