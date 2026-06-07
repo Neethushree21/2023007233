@@ -1,11 +1,8 @@
+require("dotenv").config();
+
 const Log = require("./logger");
-//require("dotenv").config();
-const TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJNYXBDbGFpbXMiOnsiYXVkIjoiaHR0cDovLzIwLjI0NC41Ni4xNDQvZXZhbHVhdGlvbi1zZXJ2aWNlIiwiZW1haWwiOiJubWtAZ2l0YW0uaW4iLCJleHAiOjE3ODA4MTgxMzksImlhdCI6MTc4MDgxNzIzOSwiaXNzIjoiQWZmb3JkIE1lZGljYWwgVGVjaG5vbG9naWVzIFByaXZhdGUgTGltaXRlZCIsImp0aSI6IjI0ZWUzZmZhLWYzMjktNGNkNC1iOTI5LTVlNjg4MTFhNGNiYSIsImxvY2FsZSI6ImVuLUlOIiwibmFtZSI6Im5lZXRodXNocmVlX21rIiwic3ViIjoiODk3OWFjYTItYzlhYS00OWMxLWEyOGUtYWNhZGRiYzlmYzljIn0sImVtYWlsIjoibm1rQGdpdGFtLmluIiwibmFtZSI6Im5lZXRodXNocmVlX21rIiwicm9sbE5vIjoiMjAyMzAwNzIzMyIsImFjY2Vzc0NvZGUiOiJ3Z0t0Z1oiLCJjbGllbnRJRCI6Ijg5NzlhY2EyLWM5YWEtNDljMS1hMjhlLWFjYWRkYmM5ZmM5YyIsImNsaWVudFNlY3JldCI6Im5weHNjZE16S0RNS0FXRWgifQ.QLv_o3c9qiFFAVGKM5LAJyWF-SIrPoLSN1Kx0R-ZeqE";
 
-
-
-
-//const TOKEN = process.env.ACCESS_TOKEN;
+const TOKEN = process.env.ACCESS_TOKEN;
 
 Log(
   "backend",
